@@ -289,7 +289,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link.active {
 
 /* Make icons always visible */
 .social-icon a img {
-  filter: brightness(0) invert(1) !important;
+  filter: brightness(1) invert(0) !important;
   opacity: 1 !important;
 }
 
