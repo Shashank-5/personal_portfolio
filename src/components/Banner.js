@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Shashaank `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer"]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Shashaank `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer"]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a Software Engineer with over 3 years of experience building scalable web applications, backend services, and enterprise-grade platforms. My work spans frontend development with React and modern JavaScript, backend engineering using Python, FastAPI, Flask, and RESTful APIs, and cloud-native deployments on AWS. I enjoy owning features end to end from understanding requirements and designing system architecture to implementing, optimizing, and deploying solutions to production.
 
 I’ve worked in Agile, cross functional teams, contributing to both customer facing applications and complex enterprise workflows. My background includes optimizing performance, building reusable components, integrating external services, and developing data driven and AI powered applications. I am passionate about solving real world problems, and continuously learning new technologies to build reliable and impactful software solutions.</p>
